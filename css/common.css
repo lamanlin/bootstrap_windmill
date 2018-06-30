@@ -1,0 +1,137 @@
+@media screen and (max-width: 994px) {
+    /*头部导航栏*/
+    .navbar .navbar-header a {
+        width: 121px;
+        height: 60px;
+        background: url("../img/logo_min.png") no-repeat;
+    }
+
+    .navbar-collapse ul {
+        margin-top: 5px;
+        border-bottom-right-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+
+    /*轮播图*/
+    .carousel .container img {
+        display: block;
+        position: absolute;
+        top: 289px;
+        left: -17px;
+    }
+
+    /*服务与支持*/
+    .service-support .col-lg-3 {
+        width: 50%; /*用栅栏画2个格子*/
+    }
+
+    .container-fluid {
+        text-align: center;
+    }
+
+    .service-support .serve1, .service-support .serve2, .service-support .serve3, .service-support .serve4, .service-support .serve5 {
+        position: relative;
+        top: 0;
+        left: 80px;
+    }
+
+    .service-support .contain-box {
+        margin-top: 25px;
+    }
+
+    /*产品展示*/
+    .product-display .contain-box {
+        margin: 0;
+        margin-top: 20px;
+        margin-right: 10px;
+    }
+    /*我们的客户*/
+    .our-customer .contain-box{
+        left: 20px;
+        width: 40%;
+        margin-right: 40px;
+    }
+    .our-customer .contain-box div{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /*头部导航栏*/
+    .navbar-toggle {
+        margin-top: -44px;
+    }
+
+    .navbar-collapse ul li {
+        float: none;
+    }
+
+    .navbar-collapse ul li:nth-child(6) {
+        width: 664px;
+    }
+
+    .navbar-collapse.in {
+        overflow-y: visible;
+    }
+
+    .navbar-collapse ul li a {
+        display: block;
+        width: 664px;
+        text-align: left;
+    }
+
+    /*轮播图*/
+    .carousel {
+        background: url("../img/ppt_bg.jpg") no-repeat center 64px;
+        height: 210px;
+        overflow: hidden;
+        color: #fff;
+    }
+
+    .carousel .container img {
+        display: none;
+    }
+
+    .carousel .container .title h1 {
+        margin-top: -13px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .carousel .carousel-control {
+        display: none;
+    }
+
+    /*服务与支持*/
+    .container-fluid {
+        text-align: center;
+    }
+
+    .service-support .contain-box {
+        margin-left: 150px;
+    }
+
+    .service-support .serve1, .service-support .serve2, .service-support .serve3, .service-support .serve4, .service-support .serve5 {
+        position: relative;
+        top: 0;
+        left: 66px;
+    }
+
+    /*产品展示*/
+    .product-display .contain-box {
+        margin: 20px 0 0 0;
+        left: 0;
+        width: 620px;
+        height: 470px;
+    }
+
+    .product-display .contain-box .product {
+        width: 600px;
+        height: 400px;
+    }
+    /*我们的客户*/
+    .our-customer .contain-box {
+       left: 50%;
+        margin-left: -131px;
+    }
+}
